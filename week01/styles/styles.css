@@ -1,3 +1,4 @@
+/*business card*/
 body {
   background-color: rosybrown;
   font-family: Arial, sans-serif;
@@ -25,4 +26,130 @@ p {
 
 a {
   text-decoration: none;
+}
+
+/*to do list*/
+body,
+.todo-list {
+  background-color: lightgray;
+  color: black;
+  width: 50%;
+  margin-top: 20px;
+  margin: auto;
+  padding: 10px;
+  font-size: 20px;
+
+}
+
+.hover {
+  color: aqua;
+}
+
+li {
+  line-height: 1.5;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red;
+}
+
+a:focus {
+  outline: 2px solid orange
+}
+
+a:active {
+  color: yellow;
+}
+
+/* blod post card*/
+
+body {
+  background-color: rgb(18, 18, 73);
+}
+
+.blog-post-card {
+  background-color: white;
+  border-radius: 5px;
+  width: 600px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.post-img {
+  width: 600px;
+  border-bottom: 5px solid rgb(67, 67, 78);
+
+}
+
+.post-content {
+  padding: 10px;
+}
+
+.post-title {
+  color: darkblue;
+  margin: 20px;
+}
+
+.post-excerpt {
+  color: rgb(43, 30, 30);
+  margin: 20px;
+}
+
+.read-more {
+  color: white;
+  background-color: black;
+  margin: 10px;
+  padding: 6px;
+  border-radius: 5px;
+  display: inline-block;
+
+}
+
+.read-more:hover {
+  background-color: blue;
+}
+
+/*Confidential Email*/
+
+#email {
+  padding: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px;
+  box-sizing: border-box;
+  background-color: lightpink
+}
+
+#confidential {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 10px;
+  border: 2px solid black;
+  transform: rotate(45deg);
+}
+
+#top-secret {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 10px;
+  border: 2px solid black;
+  transform: rotate(90deg);
+}
+
+.blurred {
+  filter: blur(3px);
 }
