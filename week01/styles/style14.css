@@ -1,0 +1,27 @@
+#nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+body {
+  background-color: white;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: lightgray;
+  }
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+}
